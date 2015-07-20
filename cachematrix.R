@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
     ## Expecting a matrix as argument "m"
     set <- function(m){
         x <<- m # Setting the variable x from the calling environment to the matrix m
-        inv_m <<- NULL # Setting the variable inv_m from the calling enviroment to empty
+        inv_m <<- NULL # Setting the variable inv_m from the calling enviroment to empty because matrix has changed
     }
     
     ## Function to return the stored matrix (no parameters)
